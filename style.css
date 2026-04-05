@@ -1,0 +1,228 @@
+body {
+    font-family: "poppins", sans-serif;
+}
+
+.banner {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("pexels-karleykosmos-4264555.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.menu {
+    height: 100vh;
+    background: linear-gradient(rgba(243, 181, 219, 0.4), rgba(241, 177, 209, 0.4));
+    background-position: center;
+}
+
+.card img {
+    aspect-ratio: 3 / 4;
+    padding: 5px;
+}
+
+.pro {
+    background-color: rgb(252, 215, 221);
+}
+
+.serv {
+    background-color: rgb(206, 156, 164);
+}
+
+.hovered-card {
+    transition: all 0.3 ease;
+}
+
+.hovered-card:hover {
+    transform: translateY(-5px);
+}
+
+.btn-pink {
+    background-color: rgb(247, 141, 159);
+    color: rgb(240, 162, 162);
+    padding: 8px 25px;
+    border-radius: 30px;
+    border: none;
+}
+
+.btn-pink:hover {
+    background-color: rgb(239, 160, 173);
+    color: rgb(247, 245, 245);
+}
+
+.icon-service {
+    width: 90px;
+    height: 90px;
+    border: solid #c86c6c 2px;
+    border-radius: 50%;
+    color: #f0e2e2;
+    background-color: #e38888;
+}
+
+.pro {
+    background-color: rgb(252, 215, 221);
+}
+
+.card-img-top {
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+}
+
+.hovered-card {
+    transition: transform 0.3s ease;
+}
+
+.hovered-card .card {
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.hovered-card:hover .card {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+#produk .card {
+    border: solid rgb(255, 233, 233) 1.5px;
+    border-radius: 0%;
+}
+
+.w-60 {
+    width: 60%;
+}
+.testimony {
+    background-color: rgb(248, 244, 244) !important;
+}
+
+.testimony-card {
+    background: rgba(251, 43, 43, 0.07) !important;
+    border: 1px solid rgba(218, 149, 149, 0.15) !important;
+    border-radius: 16px;
+    padding: 28px;
+    transition: .3s;
+    height: 100%;
+}
+
+.testimony-card:hover {
+    transform: translateY(-6px);
+    background: rgba(244, 243, 244, 0.13);
+    border-color: rgba(218, 20, 99, 0.3);
+}
+
+.testimony-card .quote-icon {
+    font-size: 2rem;
+    color: rgba(249, 245, 245, 0.3);
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.testimony-card .author {
+    font-size: 0.8rem;
+    color: rgba(83, 72, 72, 0.936);
+    margin-bottom: 12px;
+}
+
+.testimony-card p {
+    font-size: 0.88rem;
+    color: rgba(13, 13, 13, 0.8);
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.testimony-card .stars {
+    color: #FFC107;
+    font-size: 0.85rem;
+    margin-bottom: 12px;
+}
+
+.reservasi {
+    background-color: rgb(252, 215, 221);
+    padding: 50px;
+    border-radius: 50px;
+}
+
+.social-icon {
+    font-size: 1.95rem;
+    color: rgb(184, 62, 82);
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    color: rgb(184, 110, 121);
+    transform: scale(1.3);
+}
+
+.bg-pink {
+    background-color: rgb(211, 140, 152);
+}
+
+.text-warning {
+    font-size: 16px;
+}
+
+.judul-produk {
+    color: #842f2f;
+}
+
+.btn-buy {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.produk-title {
+    color: #602828;
+    font: 16px;
+}
+
+.produk-harga {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.produk-title {
+    margin-bottom: 8px!important;
+    align-self: flex-start;
+
+}
+
+.produk-harga {
+    align-self: flex-end;
+    font-weight: bold;
+    color: #FFC107;
+    align-self: flex-end;
+}
+
+.row > .col-md-4 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.h6.fw-bold {
+    margin-bottom: 0.5rem;
+    @media (min-width: 768px) {
+        .row.text-center.text-md-start {
+            justify-content: space-between;
+        }
+    }
+}
+
+
+.text-white p {
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 320px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: rgb(249, 245, 245);
+}
+
+footer {
+    color: rgb(247, 241, 241);
+}
